@@ -51,8 +51,8 @@ rdsConn = [
 ## Jmx(Java)配置信息
 jmxLibjvm = "/data/software/java/jre/lib/amd64/server/libjvm.so"
 jmxConn = {
-    'rms'    : { 'HostName' : '127.0.0.1',      'JmxPort' : 19013, 'JmxUser' : '', 'JmxPass' : ''},
-    'uenrms' : { 'HostName' : '192.168.254.10', 'JmxPort' : 18280, 'JmxUser' : '', 'JmxPass' : ''}
+    'sss'    : { 'HostName' : '127.0.0.1',      'JmxPort' : 11111, 'JmxUser' : '', 'JmxPass' : ''},
+    'ssssss' : { 'HostName' : '192.168.254.10', 'JmxPort' : 22222, 'JmxUser' : '', 'JmxPass' : ''}
 }
 
 ## URL检测列表
