@@ -51,7 +51,7 @@ class general():
     ## 配置全局日志格式
     logFormat = logging.basicConfig(
         ## 日志级别: DEBUG, INFO, WARNING, ERROR, CRITICAL, 默认是WARNING
-        level    = logging.WARNING,
+        level    = logging.DEBUG,
         ## 日志格式: 时间, 代码所在文件名, 代码行号, 日志级别名字, 日志信息
         format   = "%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s",
         ## 日志打印时间
@@ -96,7 +96,7 @@ class general():
     urlLabel             = 'url'
     userLabel            = 'user'
 
-    cacheProjList = ['cpu', 'diskio', 'docker', 'file', 'jmx', 'memory', 'mysql', 'nginx', 'partition', 'php','process', 'redis', 'sensor', 'tcp', 'traffic']
+    cacheProjList = ['cpu', 'diskio', 'docker', 'file', 'jmx', 'memory', 'mysql', 'nginx', 'partition', 'php','redis', 'sensor', 'tcp', 'traffic', 'process', 'proc_status', 'proc_analyze', 'proc_exist']
 
 ## Linux系统变量
 class linux():

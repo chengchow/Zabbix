@@ -1,1 +1,1 @@
-{"unixtime": 1586312999.9642093, "type": "nginx", "data": {"status": {"active": "7", "server": "285", "accepts": "285", "handled_requests": "1206", "reading": "0", "writing": "1", "waiting": "6"}}}
+{"unixtime": 1586328599.4089375, "type": "nginx", "data": {"status": {"active": "3", "server": "1204", "accepts": "1204", "handled_requests": "6913", "reading": "0", "writing": "1", "waiting": "2"}}}

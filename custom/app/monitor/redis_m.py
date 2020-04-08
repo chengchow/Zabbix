@@ -94,10 +94,12 @@ def main(**kwargs):
                 keyspaceMisses = float(get_initdata(jsonFile = curFile, arg1 = arg1, arg2 = 'keyspace_misses'))
                 if keyspaceHits > 0 or keyspaceMisses > 0:
                     result = round(keyspaceHits * 100 / ( keyspaceHits + keyspaceMisses ), 2)
+                elif keyspaceHits == 0 and keyspaceMisses == 0:
+                    result = 0.0
                 else:
                     result = 0.0
-                    logging.info(
-                        '命中率为零: hits={}, misses={}'.format(
+                    logging.warning(
+                        '负数归零: hits={}, misses={}'.format(
                         keyspaceHits, keyspaceMisses)
                     )
             elif arg2 in secKeyList:

@@ -98,11 +98,11 @@ def main(**kwargs):
             if curTotal and preTotal and curValue and preValue:
                 diffValue = round(float(curValue) - float(preValue), 2)
                 diffTotal = round(float(curTotal) - float(preTotal), 2)
-                if diffTotal > 0 and diffValue > 0:
+                if diffTotal > 0 and diffValue >= 0:
                     result = round(diffValue * 100 / diffTotal , 2)
                     return result
                 else:
-                    logging.info(
+                    logging.warning(
                         '差值为负数或零, 结果归零: diffTotal={}, diffValue = {}'.format(
                         diffTotal, diffValue)
                     )
