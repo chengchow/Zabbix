@@ -16,7 +16,7 @@
 
 标准输出: 浮点数, 字符
 作者: zz
-版本: v1.0.0
+版本: v4.0.0
 
 备注: 
     参数太多,不在列出，详细参考mysql下global status和global variables变量名称
