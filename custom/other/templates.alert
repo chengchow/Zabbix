@@ -1,0 +1,30 @@
+{EVENT.STATUS}
+
+
+======================================
+
+事 件 ID：{EVENT.ID}
+预警主机：{HOST.NAME}
+预警地址：{HOST.IP}
+预警时间：{EVENT.DATE} {EVENT.TIME}
+预警等级：{TRIGGER.SEVERITY}
+项目名称：{TRIGGER.NAME}
+问题详情：{ITEM.NAME}:{ITEM.VALUE}
+
+---------------------------------------
+
+
+{EVENT.STATUS}
+
+
+=======================================
+
+事 件 ID：{EVENT.RECOVERY.ID}
+恢复主机：{HOST.NAME}
+恢复地址：{HOST.IP}
+恢复时间：{EVENT.RECOVERY.DATE} {EVENT.RECOVERY.TIME}
+问题等级：{TRIGGER.SEVERITY}
+项目名称：{TRIGGER.NAME}
+问题详情：{ITEM.NAME}:{ITEM.VALUE}
+
+---------------------------------------
