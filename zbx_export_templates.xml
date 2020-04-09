@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.2</version>
-    <date>2020-04-07T09:51:18Z</date>
+    <date>2020-04-09T01:43:17Z</date>
     <groups>
         <group>
             <name>模板/可选监控</name>
@@ -122,7 +122,7 @@
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{Cert Check:monitor[cert,{#CERT_DOMAIN_NAME},{#CERT_PORT}].last()}&lt;=30</expression>
+                            <expression>{Cert Check:monitor[cert,{#CERT_DOMAIN_NAME},{#CERT_PORT}].last()}&lt;=90</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
                             <name>证书 {#CERT_NAME} 即将过期</name>
@@ -2638,7 +2638,7 @@
                             <snmp_community/>
                             <snmp_oid/>
                             <key>monitor[domain_name,expire,{#DN_DOMAIN_NAME}]</key>
-                            <delay>1d</delay>
+                            <delay>120s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
                             <status>0</status>
@@ -2698,7 +2698,7 @@
                             <expression>{Domain Name Check:monitor[domain_name,expire,{#DN_DOMAIN_NAME}].last()}&lt;=90</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
-                            <name>域名 {#CERT_NAME} 即将过期</name>
+                            <name>域名 {#DN_NAME} 即将过期</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
