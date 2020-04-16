@@ -1,50 +1,100 @@
-2020/04/08 14:46:03 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:04 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:05 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:06 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:06 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:07 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:08 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:09 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:10 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:11 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:12 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:13 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:14 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:15 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:16 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:17 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:18 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:19 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:20 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:46:21 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:13 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:13 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:14 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:15 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:15 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:16 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:17 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:17 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:18 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:18 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:19 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:20 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:20 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:22 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:22 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:22 PM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=0.0, diffValue = 0.0
-2020/04/08 14:47:22 PM mysql_m.py[line:100] WARNING 除数为零或获值失败: diffQ=0.0, diffTm = 0.0
-2020/04/08 14:47:23 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:24 PM mysql_m.py[line:166] WARNING 除数为零或获值失败: diffSl=0.0, diffQH=0.0, diffTm = 0.0
-2020/04/08 14:47:25 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:27 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:27 PM mysql_m.py[line:220] WARNING 除数为零或获值失败: diffSQ=0.0, diffTm = 0.0
-2020/04/08 14:47:32 PM mysql_m.py[line:241] WARNING 除数为零或获值失败: diffCTDT=0.0, diffTm = 0.0
-2020/04/08 14:47:33 PM mysql_m.py[line:139] WARNING 除数为零或获值失败: diffIn=0.0, diffDe=0.0, diffUp=0.0, diffRe=0.0, diffTm=0.0
-2020/04/08 14:47:36 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:38 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:40 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:42 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:43 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
-2020/04/08 14:47:44 PM function.py[line:297] WARNING 除数为零: _diffTime=0.0
+2020/04/16 09:40:21 AM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=-4943.68, diffValue = 0.0
+2020/04/16 09:40:21 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth1e2190c
+2020/04/16 09:40:21 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth22b2f37
+2020/04/16 09:40:21 AM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=-4943.68, diffValue = -4543.14
+2020/04/16 09:40:22 AM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=-4943.68, diffValue = -12.1
+2020/04/16 09:40:22 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth1e2190c
+2020/04/16 09:40:23 AM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=-4943.68, diffValue = 0.0
+2020/04/16 09:40:23 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth22b2f37
+2020/04/16 09:40:24 AM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=-4943.68, diffValue = -0.08
+2020/04/16 09:40:25 AM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=-4943.68, diffValue = -8.47
+2020/04/16 09:40:26 AM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=-4943.68, diffValue = 0.0
+2020/04/16 09:40:27 AM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=-4943.68, diffValue = -71.16
+2020/04/16 09:40:28 AM cpu_m.py[line:107] WARNING 差值为负数或零, 结果归零: diffTotal=-4943.68, diffValue = -308.73
+2020/04/16 09:40:29 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-18352.0
+2020/04/16 09:40:30 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-12676.0
+2020/04/16 09:40:32 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-35457536.0
+2020/04/16 09:40:32 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-191568896.0
+2020/04/16 09:40:33 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-840.0
+2020/04/16 09:40:34 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-2941.0
+2020/04/16 09:40:36 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-17.0
+2020/04/16 09:40:37 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-958.0
+2020/04/16 09:40:38 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-25822.0
+2020/04/16 09:40:39 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-380761088.0
+2020/04/16 09:40:40 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-7440896.0
+2020/04/16 09:40:41 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-25114.0
+2020/04/16 09:40:42 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-1939.0
+2020/04/16 09:40:43 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-453.0
+2020/04/16 09:40:44 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-19.0
+2020/04/16 09:40:45 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-85734.0
+2020/04/16 09:40:52 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-629.0
+2020/04/16 09:40:54 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-195.0
+2020/04/16 09:40:57 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-594.0
+2020/04/16 09:41:12 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-10755352.0
+2020/04/16 09:41:13 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-15920464.0
+2020/04/16 09:41:17 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-13411260.0
+2020/04/16 09:41:19 AM function.py[line:303] WARNING 负数归零(负数通常是系统第一次获取数据或者系统刚刚重启时变量重置导致): _diffValue=-15920464.0
+2020/04/16 09:41:34 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-52266.0
+2020/04/16 09:41:34 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-2520.0
+2020/04/16 09:41:34 AM mysql_m.py[line:100] WARNING 除数为零或获值失败: diffQ=0.0, diffTm = 0.0
+2020/04/16 09:41:36 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-26734.0
+2020/04/16 09:41:36 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-2520.0
+2020/04/16 09:41:36 AM mysql_m.py[line:166] WARNING 除数为零或获值失败: diffSl=0.0, diffQH=0.0, diffTm = 0.0
+2020/04/16 09:41:39 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-2520.0
+2020/04/16 09:41:39 AM mysql_m.py[line:220] WARNING 除数为零或获值失败: diffSQ=0.0, diffTm = 0.0
+2020/04/16 09:41:45 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-308.0
+2020/04/16 09:41:45 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-2520.0
+2020/04/16 09:41:45 AM mysql_m.py[line:241] WARNING 除数为零或获值失败: diffCTDT=0.0, diffTm = 0.0
+2020/04/16 09:41:45 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-4105.0
+2020/04/16 09:41:45 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-126.0
+2020/04/16 09:41:45 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-665.0
+2020/04/16 09:41:45 AM function.py[line:256] WARNING 负数归零(出现负数通常是由于系统第一次获取数据或者系统刚刚重启时某些变量被重置导致): _diffValue=-2520.0
+2020/04/16 09:41:45 AM mysql_m.py[line:139] WARNING 除数为零或获值失败: diffIn=0.0, diffDe=0.0, diffUp=0.0, diffRe=0.0, diffTm=0.0
+2020/04/16 09:41:56 AM redis_c.py[line:61] ERROR redis连接错误: host=127.0.0.1, port=1111, passwd=******
+2020/04/16 09:41:56 AM redis_c.py[line:61] ERROR redis连接错误: host=127.0.0.1, port=2222, passwd=******
+2020/04/16 09:41:56 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=1111
+2020/04/16 09:41:56 AM redis_m.py[line:110] ERROR 参数2错误, 当前参数2: arg2=connected_clients
+2020/04/16 09:41:57 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=2222
+2020/04/16 09:41:57 AM redis_m.py[line:110] ERROR 参数2错误, 当前参数2: arg2=connected_clients
+2020/04/16 09:41:58 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=1111
+2020/04/16 09:41:58 AM redis_m.py[line:110] ERROR 参数2错误, 当前参数2: arg2=evicted_keys
+2020/04/16 09:41:59 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=2222
+2020/04/16 09:41:59 AM redis_m.py[line:110] ERROR 参数2错误, 当前参数2: arg2=evicted_keys
+2020/04/16 09:42:00 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=1111
+2020/04/16 09:42:00 AM redis_m.py[line:110] ERROR 参数2错误, 当前参数2: arg2=expired_keys
+2020/04/16 09:42:01 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=2222
+2020/04/16 09:42:01 AM redis_m.py[line:110] ERROR 参数2错误, 当前参数2: arg2=expired_keys
+2020/04/16 09:42:01 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=docker0
+2020/04/16 09:42:03 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=1111
+2020/04/16 09:42:03 AM function.py[line:218] ERROR 缓存数据没有对应参数的查询值: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=1111, arg2=keyspace_hits
+2020/04/16 09:42:03 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=docker0
+2020/04/16 09:42:03 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=2222
+2020/04/16 09:42:03 AM function.py[line:218] ERROR 缓存数据没有对应参数的查询值: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=2222, arg2=keyspace_hits
+2020/04/16 09:42:03 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=docker0
+2020/04/16 09:42:04 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=1111
+2020/04/16 09:42:04 AM redis_m.py[line:110] ERROR 参数2错误, 当前参数2: arg2=instantaneous_input_kbps
+2020/04/16 09:42:05 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/redis/cur_redis.json, arg1=2222
+2020/04/16 09:42:05 AM redis_m.py[line:110] ERROR 参数2错误, 当前参数2: arg2=instantaneous_input_kbps
+2020/04/16 09:42:18 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth1e2190c
+2020/04/16 09:42:19 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth22b2f37
+2020/04/16 09:42:20 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth1e2190c
+2020/04/16 09:42:21 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth22b2f37
+2020/04/16 09:42:22 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth1e2190c
+2020/04/16 09:42:23 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth22b2f37
+2020/04/16 09:43:04 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/partition/cur_partition.json, arg1=/var/lib/docker/containers
+2020/04/16 09:43:05 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/partition/cur_partition.json, arg1=/var/lib/docker/overlay2
+2020/04/16 09:43:06 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/partition/cur_partition.json, arg1=/var/lib/docker/containers
+2020/04/16 09:43:07 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/partition/cur_partition.json, arg1=/var/lib/docker/overlay2
+2020/04/16 09:43:08 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/partition/cur_partition.json, arg1=/var/lib/docker/containers
+2020/04/16 09:43:09 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/partition/cur_partition.json, arg1=/var/lib/docker/overlay2
+2020/04/16 09:43:10 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/partition/cur_partition.json, arg1=/var/lib/docker/containers
+2020/04/16 09:43:11 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/partition/cur_partition.json, arg1=/var/lib/docker/overlay2
+2020/04/16 09:44:01 AM function.py[line:287] ERROR 缓存数据没有对应参数的查询值: _curFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, _preFile=/data/software/zabbix/custom/cache/traffice/pre_traffice.json, arg1=docker0, arg2=bytes_recv
+2020/04/16 09:44:02 AM function.py[line:287] ERROR 缓存数据没有对应参数的查询值: _curFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, _preFile=/data/software/zabbix/custom/cache/traffice/pre_traffice.json, arg1=docker0, arg2=bytes_sent
+2020/04/16 09:44:03 AM function.py[line:287] ERROR 缓存数据没有对应参数的查询值: _curFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, _preFile=/data/software/zabbix/custom/cache/traffice/pre_traffice.json, arg1=docker0, arg2=dropin
+2020/04/16 09:44:18 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth1e2190c
+2020/04/16 09:44:19 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth22b2f37
+2020/04/16 09:44:20 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth1e2190c
+2020/04/16 09:44:21 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth22b2f37
+2020/04/16 09:44:22 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth1e2190c
+2020/04/16 09:44:23 AM function.py[line:199] ERROR 获取次关键词列表失败: jsonFile=/data/software/zabbix/custom/cache/traffice/cur_traffice.json, arg1=veth22b2f37

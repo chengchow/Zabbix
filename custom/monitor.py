@@ -96,7 +96,7 @@ class general():
     urlLabel             = 'url'
     userLabel            = 'user'
 
-    cacheProjList = ['cpu', 'diskio', 'docker', 'file', 'jmx', 'memory', 'mysql', 'nginx', 'partition', 'php','redis', 'sensor', 'tcp', 'traffic', 'process', 'proc_status', 'proc_analyze', 'proc_exist']
+    cacheProjList = ['cpu', 'diskio', 'docker', 'file', 'jmx', 'memory', 'mysql', 'nginx', 'partition', 'php','redis', 'sensor', 'traffic', 'process', 'proc_status', 'proc_analyze', 'proc_exist', 'tcp']
 
 ## Linux系统变量
 class linux():

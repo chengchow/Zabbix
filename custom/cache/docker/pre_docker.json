@@ -1,1 +1,1 @@
-{"unixtime": 1586328501.9415653, "type": "docker", "data": {"vibrant_haibt": {"cpu": 0.15, "mem": 3.78, "netin": 3430.4, "netout": 656.0}, "dreamy_borg": {"cpu": 0.0, "mem": 0.04, "netin": 2621.44, "netout": 656.0}}}
+{"unixtime": 1587002112.7646263, "type": "docker", "data": {"vibrant_haibt": {"cpu": 0.13, "mem": 6.58, "netin": 3307.52, "netout": 656.0}, "dreamy_borg": {"cpu": 0.0, "mem": 0.14, "netin": 2600.96, "netout": 656.0}}}

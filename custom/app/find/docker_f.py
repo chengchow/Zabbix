@@ -33,7 +33,8 @@ keyInfo = osCfg.dockerShell
 ##主程序
 def main():
     ## 获取docker信息
-    dockerInfo = os.popen(keyInfo).read().strip('\r\n').split()
+    shellCmd='/bin/bash {}'.format(keyInfo)
+    dockerInfo = os.popen(shellCmd).read().strip('\r\n').split()
     dockerList = [ x for x in dockerInfo if dockerInfo.index(x) % 8 == 0 ]
 
     ## 生成数据列表

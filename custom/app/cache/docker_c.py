@@ -45,7 +45,8 @@ def main():
     shell = osCfg.dockerShell
 
     ## 获取shell脚本数据
-    shellData = os.popen('/bin/bash {}'.format(shell)).read().strip('\r\n').split()
+    shellCmd='/bin/bash {}'.format(shell)
+    shellData = os.popen(shellCmd).read().strip('\r\n').split()
 
     ## 获取数据索引列表
     indexList = [ x for x in shellData if shellData.index(x) % 8 == 0 ] 

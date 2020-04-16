@@ -46,7 +46,7 @@ def tcp_num(**kwargs):
     _status   = kwargs.get('status')
     _infoList = kwargs.get('infoList')
 
-    _pidList  = [_x.pid for _x in _infoList if _x.status == _status.upper()]
+    _pidList  = [ _x.pid for _x in _infoList if _x.status == _status.upper() ]
 
     return len(_pidList)
 
@@ -74,7 +74,7 @@ def main():
     outputDict = {
         'unixtime' : nowTime,
         'type'     : label,
-        'data'     : dataDict
+        'data'     : dataDict,
     }
 
     ## 写入缓存文件
