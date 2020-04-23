@@ -22,10 +22,10 @@ Message = sys.argv[3]
 AttachPath="/data/software/zabbix/user_defined/cache/error_logs"
 
 #发送邮件的相关信息，根据你实际情况填写
-SmtpHost = 'smtp.uenpay.com'
-FromMail = 'it.operations@uenpay.com'
-UserName = 'it.operations@uenpay.com'
-PassWord = 'Abcd@2020'
+SmtpHost = 'smtp.******.com'
+FromMail = '*************@******.***'
+UserName = '*************@******.***'
+PassWord = '****@****'
 
 #定义smtp传输类型
 SmtpType = 'ssl'    # smtp,tls,ssl

@@ -8,7 +8,7 @@ import urllib
 import sys
 
 def sendm(mobile,content):
-        url='http://112.124.15.82:8130/sms-swagger/sms/sendSmsMessageYunwei?'
+        url='http://************:****/sms-swagger/sms/sendSmsMessageYunwei?'
         data = urllib.urlencode({"toMobile":mobile,"message":content})
         req = urllib2.Request(url + data)
         res = urllib2.urlopen(req)

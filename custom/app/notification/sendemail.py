@@ -16,10 +16,10 @@ if sys.getdefaultencoding() != default_encoding:
     sys.setdefaultencoding(default_encoding)
  
 #发送邮件的相关信息，根据你实际情况填写
-SmtpHost = 'smtp.exmail.qq.com'
-FromMail = 'it.operations@uenpay.com'
-UserName = 'it.operations@uenpay.com'
-PassWord = 'Abcd@2020'
+SmtpHost = 'smtp.******.com'
+FromMail = '*************@******.***'
+UserName = '*************@******.***'
+PassWord = '****@****'
 
 SmtpType = 'ssl'	# smtp,tls,ssl
 

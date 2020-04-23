@@ -12,7 +12,7 @@ import psutil
 import logging
 
 ## 指定python执行路径
-pyExec = "/usr/bin/python"
+#pyExec = "/usr/bin/python"
 
 ## 设置缓存执行模式(True|False)
 cacheType = True
