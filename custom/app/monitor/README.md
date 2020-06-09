@@ -28,6 +28,7 @@
 | php_m.py           | php状态监控                |      |
 | proc_status_m.py   | 进程状态监控               |      |
 | tcp_m.py           | tcp连接状态监控            |      |
+| keyword_match_m.py | 日志关键词监控             |      |
 
 
 

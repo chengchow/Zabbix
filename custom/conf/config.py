@@ -13,21 +13,42 @@ if __name__ == '__main__':
 
 ## 监听端口列表
 portList = [
-    { "PortName" : "sshd 连接"            , "HostAddr" : "192.168.254.10", "PortType" : "tcp", "PortNumber" : 22    },
-    { "PortName" : "zabbix_agentd(客户端)", "HostAddr" : "127.0.0.1",      "PortType" : "tcp", "PortNumber" : 10050 },
-    { "PortName" : "zabbix_server"        , "HostAddr" : "127.0.0.1",      "PortType" : "tcp", "PortNumber" : 10051 },
-    { "PortName" : "nginx"                , "HostAddr" : "127.0.0.1",      "PortType" : "tcp", "PortNumber" : 80    },
-    { "PortName" : "nginx_status"         , "HostAddr" : "127.0.0.1",      "PortType" : "tcp", "PortNumber" : 65455 },
-    { "PortName" : "mysqld"               , "HostAddr" : "127.0.0.1",      "PortType" : "tcp", "PortNumber" : 3306  }
+    {"PortName":"sshd 连接", "PortType":"tcp", "HostAddr":"127.0.0.1", "PortNumber":22},
+    {"PortName":"zabbix_agentd（客户端）", "PortType":"tcp", "HostAddr":"127.0.0.1", "PortNumber":10050},
+    {"PortName":"店管家Api", "PortType":"tcp", "HostAddr":"127.0.0.1", "PortNumber":8187},
+    {"PortName":"店管家Console", "PortType":"tcp", "HostAddr":"127.0.0.1", "PortNumber":8212},
+    {"PortName":"店管家Callback", "PortType":"tcp", "HostAddr":"127.0.0.1", "PortNumber":8191},
+    {"PortName":"店管家Job", "PortType":"tcp", "HostAddr":"127.0.0.1", "PortNumber":8193},
+]
+
+## 日志关键词监控信息
+logKeys = [
+    dict(
+        sign         = 'dgjs_callback_threads',
+        name         = '店管家CallBack日志Threads错误',
+        keyword      = 'java.util.concurrent.ThreadPoolExecutor',
+        logdir       = '/home/uenpay/logs/dgjs/callback/{year}{mon}{date}',      ## (year, mon, date)
+        doublethorld = 86400
+    ),
+    dict(
+        sign         = 'dgjs_callback_redis',
+        name         = '店管家CallBack日志Redis连接错误',
+        keyword      = 'Cannot connect Redis Sentinel at',
+        logdir       = '/home/uenpay/logs/dgjs/callback/{year}{mon}{date}',      ## (year, mon, date)
+        doublethorld = 86400       
+    ),
+    dict(
+        sign         = 'dgjs_callback_db',
+        name         = '店管家CallBack日志DB连接错误',
+        keyword      = 'java.sql.SQLSyntaxErrorException',
+        logdir       = '/home/uenpay/logs/dgjs/callback/{year}{mon}{date}',      ## (year, mon, date)
+        doublethorld = 86400       
+    ),
 ]
 
 ## 监听进程列表
 procList = [
-    "sshd",
-    "zabbix_agentd",
-    "zabbix_server",
-    "nginx",
-    "mysqld"
+    "chronyd"
 ]
 
 ## Nginx状态URL

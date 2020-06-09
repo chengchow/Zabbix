@@ -1,1 +1,1 @@
-{"unixtime": 1587002212.6658764, "type": "tcp", "data": {"netstat": {"all": 57, "closed": 0, "listen": 12, "syn_recv": 0, "syn_sent": 0, "established": 16, "fin_wait1": 0, "fin_wait2": 0, "close_wait": 0, "closing": 0, "time_wait": 3, "last_ack": 0}}}
+{"unixtime": 1591688940.9935696, "type": "tcp", "data": {"netstat": {"all": 262, "closed": 0, "listen": 21, "syn_recv": 0, "syn_sent": 1, "established": 116, "fin_wait1": 0, "fin_wait2": 0, "close_wait": 0, "closing": 0, "time_wait": 44, "last_ack": 0}}}

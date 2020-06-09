@@ -4,7 +4,7 @@
 该脚本获取与网络, 用于钉钉预警.
 """
 import requests,json,sys,os,datetime
-webhook="https://oapi.dingtalk.com/robot/send?access_token=65071be042d675f56ff535ee86bbd301bf64f**********dad6be5ce063d9297"
+webhook="https://oapi.dingtalk.com/robot/send?access_token=65071be042d675f56ff535ee86bbd301bf64fabe43e7bc1dad6be5ce063d9297"
 user=sys.argv[1]
 text=sys.argv[3]
 data={

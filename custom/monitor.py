@@ -12,7 +12,7 @@ import psutil
 import logging
 
 ## 指定python执行路径
-#pyExec = "/usr/bin/python"
+pyExec = "/usr/bin/python"
 
 ## 设置缓存执行模式(True|False)
 cacheType = True
@@ -95,8 +95,10 @@ class general():
     trafficLabel         = 'traffice'
     urlLabel             = 'url'
     userLabel            = 'user'
+    keywordMatchLabel    = 'keyword_match'
 
-    cacheProjList = ['cpu', 'diskio', 'docker', 'file', 'jmx', 'memory', 'mysql', 'nginx', 'partition', 'php','redis', 'sensor', 'traffic', 'process', 'proc_status', 'proc_analyze', 'proc_exist', 'tcp']
+
+    cacheProjList = ['cpu', 'diskio', 'docker', 'file', 'jmx', 'memory', 'mysql', 'nginx', 'partition', 'php','redis', 'sensor', 'traffic', 'process', 'proc_status', 'proc_analyze', 'proc_exist', 'tcp', 'keyword_match']
 
 ## Linux系统变量
 class linux():
@@ -213,6 +215,9 @@ class linux():
 
     ## Docker监控脚本路径
     dockerShell = os.path.join( shellPath, 'docker/stats.sh' )
+
+    ## 日志关键词信息
+    logKeys = config.logKeys
 
 ## windows变量定义
 class windows():

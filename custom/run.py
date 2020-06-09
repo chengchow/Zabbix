@@ -97,6 +97,40 @@ def exec_monitor(_label, _arg1, _arg2):
 ## 规范脚本参数数量
 try:
     arg1, arg2, arg3 = sys.argv[1].lower(), sys.argv[2].lower(), sys.argv[3].lower()
+## 老模板参数兼容调整
+    if arg1 == 'network_connect':
+        arg1 = 'tcp'
+    elif arg1 == 'process':
+        if arg2 == 'status':
+            arg1 = 'proc_status'
+        elif arg2 == 'exist':
+            arg1 = 'proc_exist'
+    elif arg1 == 'network_traffic':
+        arg1 = 'traffic'
+    elif arg1 == 'sys' and arg2 == 'loadavg':
+        arg1,arg2 = 'loadavg','minutes'
+    elif arg1 == 'sys' and arg2 == 'boot' and arg3 == 'time':
+        arg1 = 'boot_time'
+    elif arg1 == 'sys' and arg2 == 'login' and arg3 == 'user':
+        arg1 = 'user'
+    elif arg1 == 'port' and arg2 == 'exist':
+        arg1 = 'port_exist' 
+        arg2 = 'tcp'
+    elif arg1 == 'auto' and arg2 =='find':
+        if arg3 == 'files':
+            arg3 = 'file'
+        elif arg3 == 'dirs':
+            arg3 = 'dir'
+        elif arg3 == 'port':
+            arg3 = 'port_exist'
+        elif arg3 == 'process':
+            arg3 = 'proc_exist'
+        elif arg3 == 'disk':
+            arg3 = 'diskio'
+        elif arg3 == 'network_adapter':
+            arg3 = 'traffic'
+##################################################################
+
 except IndexError:
     logging.error(
         '参数错误, 需要三个参数.'
