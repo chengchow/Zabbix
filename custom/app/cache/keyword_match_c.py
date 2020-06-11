@@ -54,9 +54,9 @@ cacheFileInfo = load_json_file(curJsonFile)
 ## 获取截取日志的时间差
 if cacheFileInfo:
     diffTime = abs(cacheFileInfo.get('unixtime')-time.time())
-#    diffTime = 360000    
+    diffTime = 360000    
 else:
-    diffTime = 120
+    diffTime = 360000
 
 ## 转置时间YYYY-MM-DD HH:MM:SS格式为unix时间
 def time_convert(dateTime):
@@ -77,11 +77,11 @@ def get_file_list(projInfoDict):
 
     ## 获取日志文件列表    
     try:
-        logFile = os.listdir(logDir)
+        logFile = [ x for x in os.listdir(logDir) if x.split('.')[-1] != 'swp']
     except FileNotFoundError:
         ## 跨日期可能导致出错
         time.sleep(1)
-        logFile = os.listdir(logDir)
+        logFile = [ x for x in os.listdir(logDir) if x.split('.')[-1] != 'swp']
 
     ## 获取文件时间元组组合
     fileTime = ((x, os.path.getmtime(os.path.join(logDir, x))) for x in logFile)
