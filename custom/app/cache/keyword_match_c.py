@@ -77,11 +77,11 @@ def get_file_list(projInfoDict):
 
     ## 获取日志文件列表    
     try:
-        logFile = os.listdir(logDir)
+        logFile = [ x for x in os.listdir(logDir) if x.split('.')[-1] == 'log' ]
     except FileNotFoundError:
         ## 跨日期可能导致出错
         time.sleep(1)
-        logFile = os.listdir(logDir)
+        logFile = [ x for x in os.listdir(logDir) if x.split('.')[-1] == 'log' ]
 
     ## 获取文件时间元组组合
     fileTime = ((x, os.path.getmtime(os.path.join(logDir, x))) for x in logFile)
