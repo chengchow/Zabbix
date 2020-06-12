@@ -97,6 +97,8 @@ def exec_monitor(_label, _arg1, _arg2):
 ## 规范脚本参数数量
 try:
     arg1, arg2, arg3 = sys.argv[1].lower(), sys.argv[2].lower(), sys.argv[3].lower()
+
+###############################################################################
 ## 老模板参数兼容调整
     if arg1 == 'network_connect':
         arg1 = 'tcp'
@@ -129,7 +131,7 @@ try:
             arg3 = 'diskio'
         elif arg3 == 'network_adapter':
             arg3 = 'traffic'
-##################################################################
+###############################################################################
 
 except IndexError:
     logging.error(
