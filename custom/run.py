@@ -136,38 +136,32 @@ except IndexError:
         '参数错误, 需要三个参数.'
     )
 else:
-    ## 创建子进程
-    childPid = os.fork()
-
-    ## 缓存脚本通过子进程调用, 后台执行
-    if childPid == 0:
-        ## 自动发现脚本调用
-        if arg1 == 'auto' and arg2 =='find':
-            try:
-                exec_find(arg3)
-            except ModuleNotFoundError:
-                logging.warning(
-                    '不存在项目{}的自动发现脚本'.format(
-                    arg3)
-                )
-        else:
-            ## 缓存脚本调用
-            if arg1 in cfg.cacheProjList:
-                ## 项目标签修正, 进程多项目公用一个缓存脚本
-                try:
-                    if arg1 == 'proc_analyze' or arg1 == 'proc_exist' or arg1 == 'proc_status' :
-                        if cache_exec(label = 'process') == True:
-                            exec_cache('process')
-                    else:
-                        if cache_exec(label = arg1) == True:
-                            exec_cache(arg1)
-                except ModuleNotFoundError:
-                    logging.info(
-                        '项目{}不存在缓存或者缓存脚本不存在'.format(
-                        arg1)
-                    )
-    ## 监控脚本主进程调用
+    ## 自动发现脚本调用
+    if arg1 == 'auto' and arg2 =='find':
+        try:
+            exec_find(arg3)
+        except ModuleNotFoundError:
+            logging.warning(
+                '不存在项目{}的自动发现脚本'.format(
+                arg3)
+            )
     else:
+        ## 缓存脚本调用
+        if arg1 in cfg.cacheProjList:
+            ## 项目标签修正, 进程多项目公用一个缓存脚本
+            try:
+                if arg1 == 'proc_analyze' or arg1 == 'proc_exist' or arg1 == 'proc_status' :
+                    if cache_exec(label = 'process') == True:
+                        exec_cache('process')
+                else:
+                    if cache_exec(label = arg1) == True:
+                        exec_cache(arg1)
+            except ModuleNotFoundError:
+                logging.info(
+                    '项目{}不存在缓存或者缓存脚本不存在'.format(
+                    arg1)
+                )
+
         ## 监控脚本调用
         try:
             exec_monitor(arg1, arg2, arg3)
