@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.2</version>
-    <date>2020-06-09T08:47:18Z</date>
+    <date>2020-11-05T01:52:50Z</date>
     <groups>
         <group>
             <name>模板/可选监控</name>
@@ -8926,7 +8926,7 @@ WRITES=W1-W2/10&#13;
                         <formula/>
                         <conditions/>
                     </filter>
-                    <lifetime>86400</lifetime>
+                    <lifetime>0</lifetime>
                     <description/>
                     <item_prototypes>
                         <item_prototype>
@@ -10313,11 +10313,11 @@ WRITES=W1-W2/10&#13;
                     <key>monitor[php,status,start_time]</key>
                     <delay>120s</delay>
                     <history>90d</history>
-                    <trends>0</trends>
+                    <trends>365d</trends>
                     <status>0</status>
-                    <value_type>1</value_type>
+                    <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units/>
+                    <units>秒</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -13699,7 +13699,29 @@ keyspace_misses:0 #查找数据库键失败的次数</description>
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{URL Check:monitor[url,{#URL_TYPE},{#URL}].count(#3,True,eq)}=0</expression>
+                            <expression>{URL Check:monitor[url,{#URL_TYPE},{#URL}].count(#6,False,eq)}=3</expression>
+                            <recovery_mode>0</recovery_mode>
+                            <recovery_expression/>
+                            <name>地址 {#URL_NAME} 出现抖动</name>
+                            <correlation_mode>0</correlation_mode>
+                            <correlation_tag/>
+                            <url/>
+                            <status>0</status>
+                            <priority>2</priority>
+                            <description/>
+                            <type>0</type>
+                            <manual_close>0</manual_close>
+                            <dependencies>
+                                <dependency>
+                                    <name>地址 {#URL_NAME} 无法连接</name>
+                                    <expression>{URL Check:monitor[url,{#URL_TYPE},{#URL}].count(#6,False,eq)}=6</expression>
+                                    <recovery_expression/>
+                                </dependency>
+                            </dependencies>
+                            <tags/>
+                        </trigger_prototype>
+                        <trigger_prototype>
+                            <expression>{URL Check:monitor[url,{#URL_TYPE},{#URL}].count(#6,False,eq)}=6</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
                             <name>地址 {#URL_NAME} 无法连接</name>
@@ -14022,6 +14044,22 @@ keyspace_misses:0 #查找数据库键失败的次数</description>
             <url/>
             <status>0</status>
             <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{Memory Info:monitor[memory,swap,used].last()}&gt;1073741824</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>交换内存使用过多</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>
