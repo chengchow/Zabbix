@@ -205,7 +205,9 @@ class linux():
     dnsInfo     = config.dnsInfo
 
     ## 分区名称列表
-    partList    = [ x.mountpoint for x in psutil.disk_partitions() ]
+    partList    = [ x.mountpoint for x in psutil.disk_partitions() if 
+                    'kubelet' not in x.mountpoint and
+                    'docker' not in x.mountpoint ]
 
     ## 磁盘名称列表
     diskList    = [ x for x in psutil.disk_io_counters(perdisk = True) if not re.findall('(dm|sr|fd|\d+)', x) ] 
