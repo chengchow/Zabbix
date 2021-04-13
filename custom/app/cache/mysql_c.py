@@ -110,7 +110,24 @@ def data_query(_conn):
         charset=_charset
     )
 
-    _dataInfo = _variablesInfo + _statusInfo
+    ## 追加主从转态数据获取
+    try:
+        _slaveList = mysql_query(
+            cmd='show slave status',
+            host=_host,
+            user=_user,
+            passwd=_passwd,
+            port=_port,
+            charset=_charset
+        )
+
+        _slaveInfo=[ {'Variable_name': y, 'Value': z} for x in _slaveList for y,z in x.items()]
+
+    except:
+        _slaveInfo=[]
+
+
+    _dataInfo = _variablesInfo + _statusInfo + _slaveInfo
 
     _dataIndex = [ x.get('Variable_name').lower() for x in _dataInfo ]
     _dataValue = [ x.get('Value') for x in _dataInfo ]
